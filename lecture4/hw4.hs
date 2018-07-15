@@ -1,4 +1,6 @@
 {-# OPTIONS_GHC -Wall #-}
+import Data.List
+
 fun1 :: [Integer] -> Integer
 fun1 [] = 1
 fun1 (x:xs)
@@ -53,5 +55,5 @@ myFoldl :: (a -> b -> a) -> a -> [b] -> a
 myFoldl f base xs = foldr (flip f) base (reverse xs)
 
 sieveSundaram :: Integer -> [Integer]
-sieveSundaram n = 2 : map (\x -> 2*x + 1) [x | x <- [1..n], x `notElem` toFilter]
+sieveSundaram n = map ((+1) . (*2)) $ [1..n] \\ toFilter
     where toFilter = [i + j + 2 * i * j | i <- [1..n], j <- [1..n], i + j + 2 * i * j <= n]
