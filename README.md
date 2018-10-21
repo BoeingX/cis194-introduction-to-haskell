@@ -1,6 +1,6 @@
-# CS194: Introduction to Haskell
+# CIS194: Introduction to Haskell
 
-This repository hosts my solutions to the [CS194(Spring 2013) course](http://www.seas.upenn.edu/~cis194/spring13/) of 
+This repository hosts my solutions to the [CIS194(Spring 2013) course](http://www.seas.upenn.edu/~cis194/spring13/) of 
 University of Pennsylvania.
 
 ## Environment setup
