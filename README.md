@@ -5,6 +5,11 @@ University of Pennsylvania.
 
 ## Environment setup
 
-Vim8.0 and GHC-mod is used throughout this repository. 
-See [this post](http://boeingx.github.io/posts/vim/interactively-run-code-with-vim-8.0/) 
-for instructions for setting up a docker-based environment.
+If you have issues in setting up a working Haskell development environment with syntax check and autocompletion, 
+see [this repository](https://github.com/BoeingX/docker-haskell-vim) for an example of using Vim 8.0 and
+[Haskell IDE Engine](https://github.com/haskell/haskell-ide-engine).
+
+## Todo
+
+- [ ] Refactor the repository with [Stack](https://docs.haskellstack.org/en/stable/README/)
+- [ ] Add unit tests
